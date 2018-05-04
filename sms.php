@@ -13,7 +13,7 @@ $to=$_POST['to'];
 
 $newmsg=str_replace(" ", "%20", $message);
 
-$smsurl = "http://sms.celcomafrica.com/sendsms.jsp?user=demoaccount&password=demo18&mobiles=".$to."&sms=".$newmsg;
+$smsurl = "http://sms.celcomafrica.com/sendsms.jsp?user=demoaccount&password=deggffgf8&mobiles=".$to."&sms=".$newmsg;
 urlencode($smsurl);
 $returned=URLopen($smsurl);
 
