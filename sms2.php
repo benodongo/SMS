@@ -9,10 +9,10 @@
 require_once('AfricasTalkingGateway.php');
 // Specify your authentication credentials
 $username   = "zalego1";
-$apikey     = "12bcdaa4d3f7647023c16d66e88d4031c891ecaeb83ba5e0e61b6def9faa777b";
+$apikey     = "your key here";
 // Specify the numbers that you want to send to in a comma-separated list
 // Please ensure you include the country code (+254 for Kenya in this case)
-$recipients = "+254791293675,+254706196611,+254718712703";
+$recipients = "+2547****,+254706****,+25471*****";
 // And of course we want our recipients to know what we really do
 $message    = "I'm a lumberjack and its ok, I sleep all night and I work all day";
 // Create a new instance of our awesome gateway class
